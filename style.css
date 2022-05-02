@@ -1,0 +1,1501 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 150px 20px 200px 85px 40px 110px 65px;
+    background-color: black;
+    padding: 55px;
+    column-gap: 65px;
+    row-gap: 30px;
+  }
+
+  #grid-item-1 {
+    background: black;  
+    padding: 20px;
+    border-radius: 0%;
+    box-shadow: 0 0 0 0 rgb(249, 151, 216);
+    transform: scale(1);
+	  animation: pulse-1 2s infinite;
+  }
+
+  @keyframes pulse-1 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(249, 151, 216);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-2 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(208, 208, 239);
+    animation: pulse-2 2s infinite;
+  }
+  @keyframes pulse-2 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(208, 208, 239);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+  #grid-item-3 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(213, 250, 217);
+    animation: pulse-3 2s infinite;
+  }
+  @keyframes pulse-3 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(213, 250, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-4 {
+    background: black;   
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(248, 125, 206);
+    animation: pulse-4 2s infinite;
+  }
+  @keyframes pulse-4 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(248, 125, 206);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-5 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(236, 254, 217);
+    animation: pulse-5 2s infinite;
+  }
+  @keyframes pulse-5 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(236, 254, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-6 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(192, 230, 247);
+    animation: pulse-6 2s infinite;
+  }
+  @keyframes pulse-6 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(192, 230, 247);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-7 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(254, 245, 168);
+    animation: pulse-7 2s infinite;
+  }
+  @keyframes pulse-7 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(254, 245, 168);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-8 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(181, 151, 217);
+    animation: pulse-8 2s infinite;
+  }
+  @keyframes pulse-8 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(181, 151, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-9 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(244, 158, 219);
+    animation: pulse-9 2s infinite;
+  }
+  @keyframes pulse-9 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(244, 158, 219);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-10 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(215, 202, 237);
+    animation: pulse-10 2s infinite;
+  }
+  @keyframes pulse-10 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(215, 202, 237);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-11 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(211, 243, 217);
+    animation: pulse-11 2s infinite;
+  }
+  @keyframes pulse-11 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(211, 243, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-12 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(219, 126, 199);
+    animation: pulse-12 2s infinite;
+  }
+  @keyframes pulse-12 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(219, 126, 199);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-13 {
+    background: black;   
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(237, 245, 217);
+    animation: pulse-13 2s infinite;
+  }
+  @keyframes pulse-13 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(237, 245, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-14 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(179, 231, 222);
+    animation: pulse-14 2s infinite;
+  }
+  @keyframes pulse-14 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(179, 231, 222);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-15 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(239, 227, 165);
+    animation: pulse-15 2s infinite;
+  }
+  @keyframes pulse-15 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(239, 227, 165);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-16 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(169, 128, 186);
+    animation: pulse-16 2s infinite;
+  }
+  @keyframes pulse-16 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(169, 128, 186);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+  #grid-item-17 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(233, 173, 224);
+    animation: pulse-17 2s infinite;
+  }
+  @keyframes pulse-17 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(233, 173, 224);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+  #grid-item-18 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(175, 165, 217);
+    animation: pulse-18 2s infinite;
+  }
+  @keyframes pulse-18 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(175, 165, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-19 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(209, 237, 217);
+    animation: pulse-19 2s infinite;
+  }
+  @keyframes pulse-19 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(209, 237, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-20 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(176, 128, 188);
+    animation: pulse-20 2s infinite;
+  }
+  @keyframes pulse-20 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(176, 128, 188);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+  #grid-item-21 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(238, 235, 217);
+    animation: pulse-21 2s infinite;
+  }
+  @keyframes pulse-21 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(238, 235, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-22 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(167, 206, 211);
+    animation: pulse-22 2s infinite;
+  }
+  @keyframes pulse-22 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(167, 206, 211);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-23 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(244, 232, 187);
+    animation: pulse-23 2s infinite;
+  }
+  @keyframes pulse-23 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(244, 232, 187);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-24 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(191, 128, 192);
+    animation: pulse-24 2s infinite;
+  }
+  @keyframes pulse-24 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(191, 128, 192);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+  #grid-item-25 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(228, 180, 227);
+    animation: pulse-25 2s infinite;
+  }
+  @keyframes pulse-25 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(228, 180, 227);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-26 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(189, 209, 240);
+    animation: pulse-26 2s infinite;
+  }
+  @keyframes pulse-26 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(189, 209, 240);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-27{
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(205, 224, 217);
+    animation: pulse-27 2s infinite;
+  }
+  @keyframes pulse-27 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(205, 224, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-28 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(219, 126, 199);
+    animation: pulse-28 2s infinite;
+  }
+  @keyframes pulse-28 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(219, 126, 199);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+  #grid-item-29 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(240, 226, 217);
+    animation: pulse-29 2s infinite;
+  }
+  @keyframes pulse-29 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(240, 226, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-30 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(162, 193, 205);
+    animation: pulse-30 2s infinite;
+  }
+  @keyframes pulse-30 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(162, 193, 205);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-31 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(237, 224, 199);
+    animation: pulse-31 2s infinite;
+  }
+  @keyframes pulse-31 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(237, 224, 199);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-32 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(183, 175, 212);
+    animation: pulse-32 2s infinite;
+  }
+  @keyframes pulse-32 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(183, 175, 212);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-33 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(223, 187, 230);
+    animation: pulse-33 2s infinite;
+  }
+  @keyframes pulse-33 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(223, 187, 230);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-34 {
+    background: black;   
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(244, 244, 216);
+    animation: pulse-34 2s infinite;
+  }
+  @keyframes pulse-34 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(244, 244, 216);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-35 {
+    background: black;   
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(198, 204, 217);
+    animation: pulse-35 2s infinite;
+  }
+  @keyframes pulse-35 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(198, 204, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-36 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(233, 173, 224);
+    animation: pulse-36 2s infinite;
+  }
+  @keyframes pulse-36 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(233, 173, 224);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-37 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(242, 207, 217);
+    animation: pulse-37 2s infinite;
+  }
+  @keyframes pulse-37 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(242, 207, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+  #grid-item-38 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(153, 174, 197);
+    animation: pulse-38 2s infinite;
+  }
+  @keyframes pulse-38 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(153, 174, 197);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-39 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(234, 220, 205);
+    animation: pulse-39 2s infinite;
+  }
+  @keyframes pulse-39 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(234, 220, 205);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-40 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(203, 225, 215);
+    animation: pulse-40 2s infinite;
+  }
+  @keyframes pulse-40 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(203, 225, 215);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-41 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(218, 194, 233);
+    animation: pulse-41 2s infinite;
+  }
+  @keyframes pulse-41 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(218, 194, 233);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+  
+
+  #grid-item-42 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(175, 165, 217);
+    animation: pulse-42 2s infinite;
+  }
+  @keyframes pulse-42 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(175, 165, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-43 {
+    background: black;   
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(194, 190, 217);
+    animation: pulse-43 2s infinite;
+  }
+  @keyframes pulse-43 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(194, 190, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+  #grid-item-44 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(208, 208, 239);
+    animation: pulse-44 2s infinite;
+  }
+  @keyframes pulse-44 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(208, 208, 239);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+  #grid-item-45 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(244, 188, 216);
+    animation: pulse-45 2s infinite;
+  }
+  @keyframes pulse-45 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(244, 188, 216);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-46 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(145, 155, 188);
+    animation: pulse-46 2s infinite;
+  }
+  @keyframes pulse-46 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(145, 155, 188);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-47 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(216, 202, 208);
+    animation: pulse-47 2s infinite;
+  }
+  @keyframes pulse-47 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(216, 202, 208);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-48 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(241, 217, 217);
+    animation: pulse-48 2s infinite;
+  }
+  @keyframes pulse-48 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(241, 217, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-49 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(213, 201, 236);
+    animation: pulse-49 2s infinite;
+  }
+  @keyframes pulse-49 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(213, 201, 236);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-50 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(224, 207, 224);
+    animation: pulse-50 2s infinite;
+  }
+  @keyframes pulse-50 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(224, 207, 224);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-51 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(190, 190, 217);
+    animation: pulse-51 2s infinite;
+  }
+  @keyframes pulse-51 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(190, 190, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-52 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(212, 127, 197);
+    animation: pulse-52 2s infinite;
+  }
+  @keyframes pulse-52 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(212, 127, 197);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-53 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(248, 160, 216);
+    animation: pulse-53 2s infinite;
+  }
+  @keyframes pulse-53 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(248, 160, 216);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-54 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(136, 136, 180);
+    animation: pulse-54 2s infinite;
+  }
+  @keyframes pulse-54 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(136, 136, 180);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-55 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(247, 224, 208);
+    animation: pulse-55 2s infinite;
+  }
+  @keyframes pulse-55 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(247, 224, 208);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+  #grid-item-56 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(243, 198, 216);
+    animation: pulse-56 2s infinite;
+  }
+  @keyframes pulse-56 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(243, 198, 216);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-57{
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(208, 208, 239);
+    animation: pulse-57 2s infinite;
+  }
+  @keyframes pulse-57 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(208, 208, 239);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-58 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(192, 230, 247);
+    animation: pulse-58 2s infinite;
+  }
+  @keyframes pulse-58 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(192, 230, 247);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-59 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(181, 151, 217);
+    animation: pulse-59 2s infinite;
+  }
+  @keyframes pulse-59 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(181, 151, 217);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-60 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(244, 188, 216);
+    animation: pulse-60 2s infinite;
+  }
+  @keyframes pulse-60 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(244, 188, 216);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-61 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(228, 180, 227);
+    animation: pulse-61 2s infinite;
+  }
+  @keyframes pulse-61 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(228, 180, 227);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-62 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(119, 119, 165);
+    animation: pulse-62 2s infinite;
+  }
+  @keyframes pulse-62 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(119, 119, 165);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-63 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(220, 203, 230);
+    animation: pulse-63 2s infinite;
+  }
+  @keyframes pulse-63 {
+    0% {
+      transform: scale(1.5);
+      box-shadow: 0 0 0 0 rgb(220, 203, 230);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  #grid-item-64 {
+    background: black;  
+    padding: 20px;
+    box-shadow: 0 0 0 0 rgb(247, 170, 216);
+    animation: pulse-64 2s infinite;
+  }
+  @keyframes pulse-64 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgb(247, 170, 216);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+
+ 
+
+
+ 
+
+
+

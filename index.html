@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Project_3</title>
+</head>
+
+
+
+<body>
+
+    <div class="grid-container">
+        <p id="grid-item-1"></p>
+        <p id="grid-item-2"></p>
+        <p id="grid-item-3"></p>
+        <p id="grid-item-4"></p>
+        <p id="grid-item-5"></p>
+        <p id="grid-item-6"></p>   
+        <p id="grid-item-7"></p>
+        <p id="grid-item-8"></p>
+        <p id="grid-item-9"></p> 
+        <p id="grid-item-10"></p>
+        <p id="grid-item-11"></p>
+        <p id="grid-item-12"></p> 
+        <p id="grid-item-13"></p>
+        <p id="grid-item-14"></p>
+        <p id="grid-item-15"></p> 
+        <p id="grid-item-16"></p>
+        <p id="grid-item-17"></p>    
+        <p id="grid-item-18"></p>   
+        <p id="grid-item-19"></p>
+        <p id="grid-item-20"></p>
+        <p id="grid-item-21"></p>  
+        <p id="grid-item-22"></p>
+        <p id="grid-item-23"></p>
+        <p id="grid-item-24"></p>  
+        <p id="grid-item-25"></p>
+        <p id="grid-item-26"></p>
+        <p id="grid-item-27"></p> 
+        <p id="grid-item-28"></p>
+        <p id="grid-item-29"></p>
+        <p id="grid-item-30"></p> 
+        <p id="grid-item-31"></p>
+        <p id="grid-item-32"></p>
+        <p id="grid-item-33"></p>  
+        <p id="grid-item-34"></p>
+        <p id="grid-item-35"></p>
+        <p id="grid-item-36"></p>  
+        <p id="grid-item-37"></p>
+        <p id="grid-item-38"></p>
+        <p id="grid-item-39"></p>
+        <p id="grid-item-40"></p>
+        <p id="grid-item-41"></p>
+        <p id="grid-item-42"></p>  
+        <p id="grid-item-43"></p>
+        <p id="grid-item-44"></p>
+        <p id="grid-item-45"></p>  
+        <p id="grid-item-46"></p>
+        <p id="grid-item-47"></p>
+        <p id="grid-item-48"></p>   
+        <p id="grid-item-49"></p>
+        <p id="grid-item-50"></p>
+        <p id="grid-item-51"></p>  
+        <p id="grid-item-52"></p>
+        <p id="grid-item-53"></p>
+        <p id="grid-item-54"></p>  
+        <p id="grid-item-55"></p>
+        <p id="grid-item-56"></p>
+        <p id="grid-item-57"></p> 
+        <p id="grid-item-58"></p>
+        <p id="grid-item-59"></p>
+        <p id="grid-item-60"></p> 
+        <p id="grid-item-61"></p> 
+        <p id="grid-item-62"></p>
+        <p id="grid-item-63"></p>
+        <p id="grid-item-64"></p> 
+      </div>
+
+</body>
+</html>
+
+
+<script>
+const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://meteostat.p.rapidapi.com/stations/hourly?station=10637&start=2022-04-25&end=2022-05-25&tz=America%2FChicago",
+	"method": "GET",
+	"headers": {
+		"X-RapidAPI-Host": "meteostat.p.rapidapi.com",
+		"X-RapidAPI-Key": "f4bf02b8ffmsh960fd616d4c0110p1644bfjsn1811f7e2f327"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+
+</script>
